@@ -1,0 +1,298 @@
+.body {
+  background-color: rgb(0, 182, 232);
+}
+.heading {
+  text-align: center;
+}
+
+.intro-text {
+  background-color: #ff4d00;
+  color: #000000;
+  border: 2px solid #6D6D6D;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 5px;
+  font-family: helvetica;
+  font-style: normal;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
+}
+
+.buttons {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.easily {
+  background-color: rgb(255, 1, 1);
+  color: black;
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  vertical-align: top;
+  font-weight:bolder;
+  width:28%;
+  transition: background-color 0.15s, color 0.15s;
+  border: 1px solid #6D6D6D;
+}
+
+.easily:hover {
+  background-color: rgb(108, 0, 0);
+  color: white;
+}
+
+
+.not-easily {
+  background-color: rgb(255, 234, 0);
+  color: black;
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 16px;
+  margin-right: 16px;
+  vertical-align: top;
+  font-weight:bolder;
+  width:28%;
+  transition: background-color 0.15s, color 0.15s;
+  border: 1px solid #6D6D6D;
+}
+
+.not-easily:hover {
+  background-color: rgb(155, 163, 38);
+  color: white;
+}
+
+
+
+.never {
+  background-color: rgb(0, 255, 8);
+  color: black;
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  vertical-align: top;
+  font-weight:bolder;
+  width:28%;
+  transition: background-color 0.15s, color 0.15s;
+  border: 1px solid #6D6D6D;
+}
+
+.never:hover {
+  background-color: rgb(21, 113, 25);
+  color: white;
+}
+
+.buttonDone {
+  position: fixed;
+  left: 50%;
+  bottom: 20px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+}
+
+.stop {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  vertical-align: top;
+  font-weight:bolder;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.stop:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.timer {
+  text-align: center;
+  margin-top: 5%;
+}
+
+
+.timer1 {
+  background-color: rgb(255, 1, 1);
+  color: black;
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  vertical-align: top;
+  font-weight:bolder;
+  width:30%;
+  text-align: center;
+  padding-right: 10%;
+  padding-left: 10%;
+  border: 1px solid #6D6D6D;
+}
+
+.timer2 {
+  background-color: rgb(255, 234, 0);
+  color: black;
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 16px;
+  margin-right: 16px;
+  vertical-align: top;
+  font-weight:bolder;
+  width:25%;
+  text-align: center;
+  padding-right: 10%;
+  padding-left: 10%;
+  border: 1px solid #6D6D6D;
+}
+
+.timer3 {
+  background-color: rgb(0, 255, 8);
+  color: black;
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  vertical-align: top;
+  font-weight:bolder;
+  width:25%;
+  text-align: center;
+  padding-right: 10%;
+  padding-left: 10%;
+  border: 1px solid #6D6D6D;
+}
+
+body {
+  background:#2EB5E5 ;
+}
+
+.sun { 
+  position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin: auto;  
+	width:70px;
+	height:70px;
+	border-radius:50%;	
+	background:white;
+	opacity:0.9;			
+	box-shadow: 0px 0px 40px 15px white;  
+}
+
+.ray_box {
+  position: absolute;
+  margin: auto;
+	top:0px;
+	left:0;
+	right:0;
+	bottom:0;	
+  width:70px;  
+  -webkit-animation: ray_anim 120s linear infinite;
+  animation: ray_anim 120s linear infinite;
+}
+.ray {  
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 50%, rgba(255,255,255,0) 100%);
+		background: linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 50%, rgba(255,255,255,0) 100%); 
+    margin-left:10px;
+    border-radius:80% 80% 0 0;
+    position:absolute;
+    opacity:0.1;
+}
+
+.ray1 {    
+    height:170px;
+    width:30px;
+   -webkit-transform: rotate(180deg);
+    top:-175px;
+    left: 15px;
+}
+.ray2 {
+    height:100px;
+    width:8px;
+   -webkit-transform: rotate(220deg);
+    top:-90px;
+    left: 75px;
+}
+.ray3 {
+    height:170px;
+    width:50px;
+   -webkit-transform: rotate(250deg);
+    top:-80px;
+    left: 100px;
+}
+.ray4 {
+    height:120px;
+    width:14px;
+   -webkit-transform: rotate(305deg);
+    top:30px;
+    left: 100px;
+}
+.ray5 {
+    height:140px;
+    width:30px;
+   -webkit-transform: rotate(-15deg);
+    top:60px;
+    left: 40px;
+}
+.ray6 {
+    height:90px;
+    width:50px;
+   -webkit-transform: rotate(30deg);
+    top:60px;
+    left: -40px;
+}
+.ray7 {
+    height:180px;
+    width:10px;
+   -webkit-transform: rotate(70deg);
+    top:-35px;
+    left: -40px;
+}
+.ray8 {
+    height:120px;
+    width:30px;
+   -webkit-transform: rotate(100deg);
+    top:-45px;
+    left:-90px;
+}
+.ray9 {
+    height:80px;
+    width:10px;
+   -webkit-transform: rotate(120deg);
+    top:-65px;
+    left:-60px;
+}
+.ray10 {
+    height:190px;
+    width:23px;
+   -webkit-transform: rotate(150deg);
+    top:-185px;
+    left: -60px;
+}
+
+
+@-webkit-keyframes ray_anim { 
+		0% { -webkit-transform: rotate(0deg); transform: rotate(0deg);}    
+    100% { -webkit-transform: rotate(360deg); transform: rotate(360deg);}
+}
